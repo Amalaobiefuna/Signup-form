@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flexWrapper {
+    height: 400px;
+    background-color: rgb(172, 170, 170);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.myBox1 {
+    background-color: aqua;
+}
+
+.myBox2 {
+    background-color: tomato;
+}
+
+.myBox3 {
+    background-color: beige;
+}
+
+.myBox4 {
+    background-color: violet;
+}
+
+.wrapper {
+    display: block;
+    padding: 64px;
+    background-color:rgb(40, 24, 159);
+    color: white;
+}
+
+.first-list {
+
+}
+
+.list-item {
+    display: inline-block;
+    background-color:black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list-item:hover {
+    background-color: white;
+    color: #121314;
+    cursor: pointer;
+}
+
+.heading {
+
+}
+
